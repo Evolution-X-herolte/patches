@@ -4,12 +4,7 @@ cd build/make/
 git am --signoff < ~/patches/build_make/0001-Ignore-linker-err.patch
 cd ../../
 cd frameworks/base/
-git am --signoff < ~/patches/frameworks_base/0001-Revert-Revert-Treat-process-group-creation-failure-d.patch
-git am --signoff < ~/patches/frameworks_base/0002-Ignore-cgroup-creation-errors.patch
-git am --signoff < ~/patches/frameworks_base/0003-Revert-CachedAppOptimizer-use-new-cgroup-api-for-fre.patch
-git am --signoff < ~/patches/frameworks_base/0004-Revert-CachedAppOptimizer-remove-native-freezer-enab.patch
-git am --signoff < ~/patches/frameworks_base/0005-Revert-CachedAppOptimizer-don-t-hardcode-freezer-pat.patch
-git am --signoff < ~/patches/frameworks_base/0006-CachedAppOptimizer-revert-freezer-to-cgroups-v1.patch
+git am --signoff < ~/patches/frameworks_base/fixed-ver.patch
 cd ../
 cd native/
 git am --signoff < ~/patches/frameworks_native/0001-renderengine-gles-unconditionally-skip-PostRenderCle.patch
